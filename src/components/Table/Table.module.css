@@ -1,0 +1,35 @@
+.Table {
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.Table th {
+  border: 1px solid rgb(146, 146, 146);
+}
+
+.Table tr:nth-last-of-type(odd) {
+  background-color: rgb(255, 255, 255);
+}
+.Table tr:nth-last-of-type(even) {
+  background-color: rgba(213, 224, 231, 0.795);
+}
+
+.Table td {
+  padding: 10px 5px 3px 5px;
+  border: 1px solid rgb(146, 146, 146);
+  vertical-align: top;
+}
+
+.Table th {
+  text-align: left;
+  padding: 10px 10px;
+  border-spacing: 2px;
+  background-color: transparent;
+}
+
+.Warning {
+  color: rgb(231, 17, 17);
+  font-size: large;
+  font-weight: 500;
+}
